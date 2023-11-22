@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.0" version="2.0"
+	xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>pspell</name>
+ <channel>pecl.php.net</channel>
+ <summary>This extension allows you to check the spelling of a word and offer suggestions.</summary>
+ <description>
+  This extension allows you to check the spelling of a word and offer suggestions.
+ </description>
+ <lead>
+  <name>Derick Rethans</name>
+  <user>derick</user>
+  <email>derick@php.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2023-11-22</date>
+ <time>16:32:07</time>
+ <version>
+  <release>1.0.0</release>
+  <api>1.0.0</api>
+ </version>
+ <stability>
+  <release>beta</release>
+  <api>beta</api>
+ </stability>
+ <license uri="http://www.php.net/license/3_01.txt">PHP 3.01</license>
+ <notes>
+- Initial import after extraction from PHP core distribution.
+ </notes>
+ <contents>
+  <dir name="/">
+   <file name="config.m4" role="src" />
+   <file name="config.w32" role="src" />
+   <file name="CREDITS" role="doc" />
+   <file name="LICENSE" role="doc" />
+   <file name="php_pspell.h" role="src" />
+   <file name="pspell_arginfo.h" role="src" />
+   <file name="pspell.c" role="src" />
+   <file name="pspell.stub.php" role="src" />
+   <dir name="tests">
+     <file role="test" name="001.phpt" />
+     <file role="test" name="002.phpt" />
+     <file role="test" name="003.phpt" />
+     <file role="test" name="004.phpt" />
+     <file role="test" name="005.phpt" />
+     <file role="test" name="wordlist.txt" />
+   </dir> <!-- examples -->
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>8.1.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0b1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <providesextension>pspell</providesextension>
+ <extsrcrelease />
+</package>
