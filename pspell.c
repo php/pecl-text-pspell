@@ -780,6 +780,7 @@ static PHP_MINFO_FUNCTION(pspell)
 {
 	php_info_print_table_start();
 	php_info_print_table_row(2, "PSpell Support", "enabled");
+	php_info_print_table_row(2, "PSpell extension version", PHP_PSPELL_VERSION);
 	php_info_print_table_end();
 }
 /* }}} */
