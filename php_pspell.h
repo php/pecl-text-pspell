@@ -21,7 +21,7 @@ extern zend_module_entry pspell_module_entry;
 #define pspell_module_ptr &pspell_module_entry
 
 #include "php_version.h"
-#define PHP_PSPELL_VERSION "1.0.0"
+#define PHP_PSPELL_VERSION "1.0.1"
 
 #else
 #define pspell_module_ptr NULL

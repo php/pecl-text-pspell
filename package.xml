@@ -15,19 +15,19 @@
   <email>derick@php.net</email>
   <active>yes</active>
  </lead>
- <date>2023-11-22</date>
- <time>16:32:07</time>
+ <date>2023-11-23</date>
+ <time>19:33:37</time>
  <version>
-  <release>1.0.0</release>
+  <release>1.0.1</release>
   <api>1.0.0</api>
  </version>
  <stability>
-  <release>beta</release>
-  <api>beta</api>
+  <release>stable</release>
+  <api>stable</api>
  </stability>
  <license uri="http://www.php.net/license/3_01.txt">PHP 3.01</license>
  <notes>
-- Initial import after extraction from PHP core distribution.
+- Fixed version (don't use PHP version) and tests.
  </notes>
  <contents>
   <dir name="/">
